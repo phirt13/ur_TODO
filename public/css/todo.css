@@ -1,0 +1,139 @@
+html {
+  background-color: hsla(39, 65%, 60%, 0.2);
+}
+
+body {
+  font-family: Helvetica;
+  letter-spacing: .02em;
+  width: 20em;
+  margin-top: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1em 1em 1em;
+  background-color: hsla(0, 0%, 100%, 0.9);
+}
+
+header {
+  padding: 1em;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: .1em solid hsla(30, 100%, 50%, 0.8);
+  border-radius: 50%;
+}
+
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  padding: .2em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  letter-spacing: 0.03em;
+  background-color: hsla(0, 0%, 100%, 0.9);
+
+}
+
+li {
+  font-size: .8em;
+  text-align: center;
+  margin: .5em 0 .5em 0;
+  padding: .5em 0 .5em 0;
+  overflow: auto;
+  background-color: hsla(39, 100%, 70%, 0.7);
+}
+textarea {
+  float: left;
+  height: 1.5em;
+  min-width: 18.25em;
+  max-width: 18.25em;
+  max-height: 5em;
+  margin-left: .75em;
+  padding: .5em 0 .5em .25em;
+  font-size: 1em;
+  color: hsla(207, 4%, 52%, 1.0);
+  text-shadow: .1em .1em .3em white;
+  border: 1px solid hsla(0, 0%, 0%, 0.0);
+  background-color: hsla(0, 0%, 100%, 0.7);
+  outline: none;
+  overflow: auto;
+}
+
+button {
+  padding: .7em;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: .02em;
+  box-shadow: .001em .001em .01em grey;
+  background-color: hsla(0, 0%, 0%, 0.0);
+  border: .1em solid hsla(0, 0%, 100%, 1.0);
+  border-radius: .8em;
+  outline: none;
+}
+
+button:hover {
+  background-color: hsla(30, 100%, 50%, 0.8);
+  border: .1em solid hsla(30, 100%, 50%, 0.0);
+}
+
+input {
+  height: 2em;
+  outline: none;
+}
+
+#add:hover {
+  background-color: hsla(39, 100%, 70%, 0.7);
+  border: .1em solid hsla(39, 100%, 70%, 0.0);
+}
+.todo-list {
+  text-align: center;
+}
+.todo-add {
+  text-align: center;
+  margin: 1em 0 0 0;
+  min-height: 1em;
+  padding: 1em 1em 1em .5em;
+  background-color: hsla(0, 0%, 75%, 1.0);
+  overflow: auto;
+}
+#new-task-form {
+  float: left;
+}
+#close-task-form {
+  margin-left: .5em;
+}
+#complete-task{
+  float: left;
+  font-size: .8em;
+  margin: .25em 0 0 .25em;
+  border: .1em solid hsla(0, 0%, 100%, 1.0);
+}
+#complete-task:hover {
+  background-color: hsla(199, 95%, 65%, 1.0);
+  border: .1em solid hsla(199, 95%, 65%, 0.0);
+}
+.complete {
+  background-color: hsla(199, 95%, 65%, 1.0);
+  opacity: .6;
+  resize: none;
+}
+ .todo-task:hover {
+  box-shadow: .01em .01em 1em hsla(0, 0%, 75%, .8);
+}
+#edit-task {
+
+}
+#task-content {
+  resize: none;
+}
+#task-complete {
+  resize: none;
+}
+#clear-complete:hover {
+  background-color: hsla(199, 95%, 65%, 1.0);
+  border: .1em solid hsla(199, 95%, 65%, 0.0);
+}

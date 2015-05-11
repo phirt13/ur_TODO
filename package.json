@@ -1,0 +1,24 @@
+{
+  "name": "challenge_1",
+  "version": "1.0.0",
+  "description": "\"urTODO an interactive task list",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phirt13/FE_code_challenge"
+  },
+  "author": "Philip Hirt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phirt13/FE_code_challenge/issues"
+  },
+  "homepage": "https://github.com/phirt13/FE_code_challenge"
+}
