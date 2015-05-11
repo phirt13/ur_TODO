@@ -70,7 +70,7 @@ button {
   letter-spacing: .02em;
   box-shadow: .001em .001em .01em grey;
   background-color: hsla(0, 0%, 0%, 0.0);
-  border: .1em solid hsla(0, 0%, 100%, 1.0);
+  border: .1em solid white;
   border-radius: .8em;
   outline: none;
 }
