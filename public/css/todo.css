@@ -1,9 +1,8 @@
 html {
   background-color: hsla(39, 65%, 60%, 0.2);
 }
-
 body {
-  font-family: Helvetica;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: .02em;
   width: 20em;
   margin-top: 1em;
@@ -12,11 +11,9 @@ body {
   padding: 0 1em 1em 1em;
   background-color: hsla(0, 0%, 100%, 0.9);
 }
-
 header {
   padding: 1em;
 }
-
 img {
   display: block;
   margin-left: auto;
@@ -24,7 +21,6 @@ img {
   border: .1em solid hsla(30, 100%, 50%, 0.8);
   border-radius: 50%;
 }
-
 h1 {
   margin-right: auto;
   margin-left: auto;
@@ -37,7 +33,6 @@ h1 {
   background-color: hsla(0, 0%, 100%, 0.9);
 
 }
-
 li {
   font-size: .8em;
   text-align: center;
@@ -62,7 +57,6 @@ textarea {
   outline: none;
   overflow: auto;
 }
-
 button {
   padding: .7em;
   color: white;
@@ -74,17 +68,15 @@ button {
   border-radius: .8em;
   outline: none;
 }
-
 button:hover {
   background-color: hsla(30, 100%, 50%, 0.8);
   border: .1em solid hsla(30, 100%, 50%, 0.0);
 }
-
 input {
   height: 2em;
   outline: none;
+  border: none;
 }
-
 #add:hover {
   background-color: hsla(39, 100%, 70%, 0.7);
   border: .1em solid hsla(39, 100%, 70%, 0.0);
@@ -103,8 +95,8 @@ input {
 #new-task-form {
   float: left;
 }
-#close-task-form {
-  margin-left: .5em;
+#close-options {
+  margin-right: 1.25em;
 }
 #complete-task{
   float: left;
@@ -124,9 +116,7 @@ input {
  .todo-task:hover {
   box-shadow: .01em .01em 1em hsla(0, 0%, 75%, .8);
 }
-#edit-task {
 
-}
 #task-content {
   resize: none;
 }
