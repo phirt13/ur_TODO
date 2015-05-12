@@ -31,7 +31,6 @@ h1 {
   font-weight: bolder;
   letter-spacing: 0.03em;
   background-color: hsla(0, 0%, 100%, 0.9);
-
 }
 li {
   font-size: .8em;
@@ -73,7 +72,7 @@ button:hover {
   border: .1em solid hsla(30, 100%, 50%, 0.0);
 }
 input {
-  height: 2em;
+  height: 2.255em;
   outline: none;
   border: none;
 }
