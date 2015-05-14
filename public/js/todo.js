@@ -28,6 +28,7 @@ $(function() {
     $('input').attr('placeholder', 'cannot add empty tasks');
     } else {
       var taskText = $('input:text').val();
+      localStorage.setItem('task', JSON.stringify(taskText));
       $list.append('<li class="todo-task"><textarea disabled id="task-content">' + taskText + '</textarea></li>');
       $('input:text').val('');
       $('input').attr('placeholder', 'new task');
