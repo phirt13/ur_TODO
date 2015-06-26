@@ -4,12 +4,20 @@ html {
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: .02em;
-  width: 20em;
+  width: 22em;
   margin-top: 1em;
   margin-right: auto;
   margin-left: auto;
   padding: 0 1em 1em 1em;
   background-color: hsla(0, 0%, 100%, 0.9);
+}
+main {
+  overflow: auto;
+}
+.ur-todo {
+  float: left;
+  margin-left: 1em;
+  width: 20em;
 }
 header {
   padding: 1em;

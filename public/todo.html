@@ -2,53 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>urTODO</title>
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link type="text/css" href="css/reset.css" rel="stylesheet"/>
-<link type="text/css" href="css/todo.css" rel="stylesheet"/>
-<link rel="shortcut icon" href="pic/favicon.ico" />
-<!-- JAVASCRIPT
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script src="js/deps/jquery.js"></script>
-<script src="js/todo.js"></script>
-</head>
+  <link type="text/css" href="css/reset.css" rel="stylesheet"/>
+  <link type="text/css" href="css/todo.css" rel="stylesheet"/>
+  <link rel="shortcut icon" href="pic/favicon.ico" />
+
 <!-- CONTENT
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <body>
+
   <header class="main-title">
       <img class="circle-doggie" id="doggie" src="pic/doggie.png"/>
   </header>
   <main>
-    <section class="todo-list">
-      <h1>urTODO</h1>
-      <hr/>
-      <ul id="active-tasks">
-     <!--    <li class="todo-task">
-          <textarea disabled id="task-content"></textarea>
-        </li>
-        <li class="todo-task">
-          <textarea disabled id="task-content"></textarea>
-        </li>
-        <li class="todo-task">
-          <textarea disabled id="task-content"></textarea>
-        </li> -->
-      </ul>
-    </section>
-    <section class="complete-list">
-      <ul id="finished-tasks">
-      </ul>
-    </section>
-    <section class="todo-add">
-      <button id="new-task-button">new tasks</button>
-      <button id="edit-tasks">edit</button>
-      <button id="clear-complete">clear complete</button>
-      <form id="new-task-form">
-        <input type="text" name="task-value" placeholder="new task" id="add-task" size="30"/>
-        <button id="add">add</button>
-      </form>
-      <button id="close-options">done</button>
+    <section class="ur-todo">
+      <section class="todo-list">
+        <h1>urTODO</h1>
+        <hr/>
+        <ul id="active-tasks">
+        </ul>
+      </section>
+      <section class="complete-list">
+        <ul id="finished-tasks">
+        </ul>
+      </section>
+      <section class="todo-add">
+        <button id="new-task-button">new tasks</button>
+        <button id="edit-tasks">edit</button>
+        <button id="clear-complete">clear complete</button>
+        <form id="new-task-form">
+          <input type="text" name="task-value" placeholder="new task" id="add-task" size="30"/>
+          <button id="add">add</button>
+        </form>
+        <button id="close-options">done</button>
+      </section>
     </section>
   </main>
 </body>
+
+<!-- JAVASCRIPT
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/deps/jquery.js"></script>
+<script src="js/todo.js"></script>
+
 </html>
